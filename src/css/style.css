@@ -541,8 +541,184 @@ section.numbers h6{
     margin-top: 20px;
 }
 
+section.level{
+
+    padding-top: 90px;
+    padding: 100px 50px;
+}
+
+.level_flex{
+
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    
+    
+}
+
+.left_block{
+
+    width: 40%;
+}
 
 
+
+.images_block{
+
+    width: 95%;
+    width: 100%;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 14px;
+    margin-bottom: 35px;
+}
+
+.left_block h5{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #d64734;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.left_block h1{
+
+    font-size: 39px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+    
+}
+
+.left_block p{
+
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+
+.left_block button{
+
+    width: 37%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #d64734;
+}
+
+.left_block BUTTON:hover{
+
+    background-color: #ad2817;
+}
+
+.right_block{
+
+    width: 55%;
+  /* background-color: aqua; */
+}
+
+/* .right_flex{
+
+    display: flex;
+    flex-wrap: wrap;
+   
+
+} */
+
+.right_boxes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right_text{
+
+    display: flex;
+}
+
+.right_box{
+    width: 42%;
+}
+
+.right_box{
+
+    margin-bottom: 20px;
+}
+
+.right_box .right_text i{
+
+    font-size: 40px;
+    color: #d64734;
+}
+
+.right_box .right_text h6{
+
+   font-size: 18px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.right_box .right_text{
+
+    margin-bottom: 20px;
+}
+
+.right_box p{
+
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+
+section.form{
+
+    text-align: center;
+    padding: 80px 0;
+    background-color: #d64734;
+    opacity: 0.9;
+}
+
+section.form .form_text h1{
+
+    color: white;
+    font-size: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+section.form .form_text p{
+
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+
+}
+
+.input_box input{
+
+    width: 21%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input_box button{
+
+    padding: 0 15px;
+    padding-top: 17px;
+    padding-bottom: 12px;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
 @media screen and (max-width:1433px) {
     
     .bg_block{
@@ -559,6 +735,39 @@ section.numbers h6{
         max-width: 990px !important;
         margin: 0 auto;
     }
+}
+
+@media screen and (max-width:996px) {
+    
+    .level_flex{
+
+        flex-direction: column;
+    }
+    .left_block{
+
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .left_block button{
+
+        width: 23%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .right_block{
+        width: 100%;
+    }
+
+    .input_box input{
+
+        width: 50%;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
 }
 
 @media screen and (max-width:992px) {
@@ -811,6 +1020,51 @@ section.numbers h6{
         margin-top: 10px;
         text-align: center;
     }
+
+   
+
+    .right_box{
+        width: 90%;
+    }
+
+  .left_block{
+
+    width: 90%;
+    padding-left: 35px;
+  }
+
+  .left_block button{
+
+    width: 35%;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width:611px) {
+    
+    .right_box{
+        width: 90%;
+    }
+
+  .left_block{
+
+    width: 100%;
+    padding-left: 35px;
+  
+  }
+
+  .left_block button{
+
+    width: 35%;
+    padding: 12px;
+  }
+
+  .images_block{
+
+    margin-bottom: 10px;
+  }
+
+
 }
 
 @media  screen and (max-width:648px){
@@ -858,6 +1112,20 @@ section.numbers h6{
         padding-left: 12px;
         left: 25%;
         width: 10%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .left_block button{
+
+        width: 45%;
+    }
+
+    .left_block{
+
+        width: 100%;
     }
 }
 
@@ -1003,6 +1271,23 @@ section.numbers h6{
         color: #e45f4e;
         font-size: 40px;
     }
+
+    .left_block{
+
+        display: none;
+    }
+
+   section.level{
+
+    padding-top: 20px;
+
+   }
+
+   .right_box{
+
+    margin-top: 45px;
+    margin-bottom: 0;
+   }
 }
 
 @media screen and (max-width:394px) {
@@ -1061,6 +1346,14 @@ section.numbers h6{
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
     
+    }
+
+    .input_box input{
+
+        width: 60%;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 10px;
     }
 }
 
